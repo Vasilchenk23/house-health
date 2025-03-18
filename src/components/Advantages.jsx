@@ -30,15 +30,17 @@ const advantages = [
 const Advantages = () => {
   return (
     <Container className="py-5">
-      <h2 className="text-center text-primary fw-bold">НАШІ ПЕРЕВАГИ</h2>
+      <h2 className="title">НАШІ ПЕРЕВАГИ</h2>
       <Row className="mt-4">
         {advantages.map((adv, index) => (
-          <Col md={6} className="mb-3" key={index}>
-            <div className="p-3 rounded border border-danger bg-light d-flex">
-              <span className="text-danger fs-3 me-2">✔</span>
+          <Col md={4} className="mb-4" key={index}>
+            <div className="p-3 advantages-block d-flex">   
+              <span className="text-danger pr-4">
+                <img src="./img/vectors/check-fill.svg" alt="check-fill" className="me-2" />
+              </span>
               <div>
-                <h5 className="text-danger fw-bold">{adv.title}</h5>
-                <p className="mb-0">{adv.description}</p>
+                <h5 className="col-blue fw-bold">{adv.title}</h5>
+                <p className="col-blue-two mb-0">{adv.description}</p>
               </div>
             </div>
           </Col>
@@ -49,3 +51,4 @@ const Advantages = () => {
 };
 
 export default Advantages;
+
