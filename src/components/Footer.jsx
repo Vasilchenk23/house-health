@@ -29,7 +29,7 @@ const Footer = () => {
         </Row>
        
       </Container>
-      <Container className="d-flex justify-content-between align-items-center">
+      <div className="d-flex justify-content-between align-items-center">
         <div className="d-flex" style={{ gap: "10px" }}>
           <img src="./img/vectors/telegram.svg" alt="telegram" />
           <img src="./img/vectors/viber.svg" alt="viber" />
@@ -37,7 +37,7 @@ const Footer = () => {
           <img src="./img/vectors/instagram.svg" alt="instagram" />
         </div>
         <p className="mb-0">Ліцензія № 1608 від 30.07.2021</p>
-      </Container>
+      </div>
     </footer>
   );
 };
