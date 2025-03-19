@@ -27,9 +27,8 @@ const Footer = () => {
             <p className="mb-1">ПН-ПТ: 9.00-17.00, СБ: запис</p>
           </Col>
         </Row>
-       
-      </Container>
-      <div className="d-flex justify-content-between align-items-center">
+        <Row>
+        <div className="d-flex justify-content-between align-items-center">
         <div className="d-flex" style={{ gap: "10px" }}>
           <img src="./img/vectors/telegram.svg" alt="telegram" />
           <img src="./img/vectors/viber.svg" alt="viber" />
@@ -38,6 +37,8 @@ const Footer = () => {
         </div>
         <p className="mb-0">Ліцензія № 1608 від 30.07.2021</p>
       </div>
+        </Row>
+      </Container>
     </footer>
   );
 };

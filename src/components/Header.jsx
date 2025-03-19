@@ -9,11 +9,11 @@ const Header = () => {
         <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
           <div className="mb-2 mb-md-0">
             <img src="./img/vectors/location.svg" alt="location" className="me-2"/>
-            <strong>м. Харків, вул. Ярославська 21</strong>
+            <strong>м. Харків, вул. Ярославська 2/1</strong>
           </div>
           <div className="mb-2 mb-md-0">
             <img src="./img/vectors/time.svg" alt="time" className="me-2"/>
-            9:00 - 17:00 (Пн-Пт), Сб — по записи
+            9:00 - 17:00 (Пн-Пт), Сб — запис
           </div>
           <div className="mb-2 mb-md-0">
             <img src="./img/vectors/mykyivstar.svg" alt="mykyivstar" className="me-2"/>
@@ -33,7 +33,7 @@ const Header = () => {
         <div className="container-fluid px-5">
           <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul className="navbar-nav d-flex align-items-center gap-4">
-              <li className="">
+              <li className="nav-logo">
                 <a className="navbar-brand" href="#">
                   <img src="./img/vectors/logo.svg" alt="logo" />
                 </a>

@@ -34,8 +34,8 @@ li a {
     box-sizing: border-box; 
 }
 
-@media (max-width: 576px) {
-  .nav-item {
+@media (max-width: 1400px) {
+  .nav-logo, .nav-item {
     display: none;
   }
 }
@@ -63,6 +63,12 @@ li a {
     line-height: 80px;
     letter-spacing: 0;
     text-transform: uppercase;
+  }
+
+  @media (max-width: 1199px) {
+    .custom-h1 {
+     margin-bottom: 50px;
+    }
   }
   
   .custom-p {
@@ -146,8 +152,9 @@ li a {
   color: #0258A5;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .block-ultrasound p {
    margin-top: 30px;
+   font-size: 14px;
   }
 }
