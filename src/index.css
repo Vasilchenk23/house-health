@@ -299,21 +299,22 @@ li a {
   justify-content: space-around;
 }
 
-/* Медиа-запрос для 1 колонки на экранах меньше 1570px */
 @media (max-width: 1570px) {
   .content-cards {
     grid-template-columns: 1fr;
+    gap: 100px;
     text-align: center;
   }
+
   
   .cards {
-    max-height: 100%;
+    max-width: 100%;
+    height: 100%;
   }
 
   .contents {
     flex-direction: column;
     margin-bottom: 30px;
-    border: 1px solid red;
   }
 
   .cards h4 {
