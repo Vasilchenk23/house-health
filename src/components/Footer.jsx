@@ -28,15 +28,15 @@ const Footer = () => {
           </Col>
         </Row>
         <Row>
-        <div className="d-flex justify-content-between align-items-center">
-        <div className="d-flex" style={{ gap: "10px" }}>
-          <img src="./img/vectors/telegram.svg" alt="telegram" />
-          <img src="./img/vectors/viber.svg" alt="viber" />
-          <img src="./img/vectors/facebook.svg" alt="facebook" />
-          <img src="./img/vectors/instagram.svg" alt="instagram" />
-        </div>
-        <p className="mb-0">Ліцензія № 1608 від 30.07.2021</p>
-      </div>
+          <div className="social-license-container">
+            <div className="social-icons">
+              <img src="./img/vectors/telegram.svg" alt="telegram" />
+              <img src="./img/vectors/viber.svg" alt="viber" />
+              <img src="./img/vectors/facebook.svg" alt="facebook" />
+              <img src="./img/vectors/instagram.svg" alt="instagram" />
+            </div>
+            <p className="license-text">Ліцензія № 1608 від 30.07.2021</p>
+          </div>
         </Row>
       </Container>
     </footer>
