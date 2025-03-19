@@ -37,7 +37,7 @@ const About = () => {
           >
       </section>
       <div className="container my-5">
-        <h2 className="title mb-4">ПРО НАШУ КЛIНIКУ</h2>
+        <h2 className="title mb-4" style={{width:'100%', marginBottom:'50px'}}>ПРО НАШУ КЛIНIКУ</h2>
         <div className="row align-items-stretch">
         <div className="col-md-6 d-flex flex-column justify-content-between">
           <div className="block-ultrasound">

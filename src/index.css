@@ -311,8 +311,11 @@ li a {
     margin-bottom: 30px;
   }
 
-  .cards h4 {
-    text-align: center;
+  .list-unstyled li {
+    font-size: 14px;
+  }
+  .contents img {
+    margin: 0 auto;
   }
   .cards {
     margin: 0 auto;
