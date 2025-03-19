@@ -76,6 +76,17 @@ li a {
   margin: 15px 0;
 }
 
+.menu-list-about {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.menu-list-about li {
+  margin: 15px 0;
+}
+
+
 .menu-list a {
   color: white;
   font-size: 24px;

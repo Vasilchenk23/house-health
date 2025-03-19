@@ -79,9 +79,6 @@ const Header = () => {
         <h1 className="display-4 fw-bold custom-h1">
           МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я
         </h1>
-        <p className="fs-4 custom-p">
-          Ми знайдемо спільний шлях до покращення Вашого здоров'я
-        </p>
       </div>
     </>
   );
