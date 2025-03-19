@@ -17,7 +17,7 @@ const Main = () => {
                     style={{
                     position: 'absolute',
                     top: '50px',  
-                    left: '85px', 
+                    left: '20px', 
                     }}
                 >
                     Розклад прийому
