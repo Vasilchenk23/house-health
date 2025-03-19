@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MobileMenu from './MobileMenu'; // Подключаем мобильное меню
+import MobileMenu from './MobileMenu';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,22 +44,22 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#home">Головна</a>
+                <Link to="/">Головна</Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#about">Про нас</a>
+                <Link to="/about">Про нас</Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#services">Послуги</a>
+                <Link to="/services">Послуги</Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#doctors">Лікарі</a>
+                <Link to="/doctors">Лікарі</Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#prices">Ціни</a>
+                <Link to="/prices">Ціни</Link>
                 </li>
                 <li className="nav-item">
-                  <a href="#contacts">Контакти</a>
+                <Link to="/contact">Контакти</Link>
                 </li>
               </ul>
             </div>
