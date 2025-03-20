@@ -67,7 +67,38 @@ const Doctors = () => {
   ];
 
   return (
+    <>
+    
     <div className="container my-5">
+    <div className="row align-items-stretch" style={{margin:'0px 0px 50px'}}>
+        <div className="col-md-6 d-flex flex-column justify-content-between">
+          <div className="block-ultrasound" style={{fontSize:'24px', fontWeight:'400', color:'#E20456'}}>
+            <p>
+            Це команда висококваліфікованих спеціалістів, які щодня дбають про здоров’я наших пацієнтів
+            </p>
+            <br />
+            <p>
+            Ми поєднуємо багаторічний досвід, сучасні методи діагностики та лікування, 
+            а також індивідуальний підхід до кожного, хто звертається за допомогою 
+            </p>
+            <br />
+          </div>
+          <a
+            href="#schedule"
+            className="btns"
+        >
+            Розклад прийому
+          </a>
+        </div>
+        <div className="col-md-6 text-center text-md-end mt-4 mt-md-0">
+          <img
+            src="./img/doctor-block.png"
+            alt="УЗД процедура"
+            className="img-fluid shadow"
+          />
+        </div>
+      </div>
+      <h2 className="title mb-4" style={{width:'100%', margin:'100px 0px'}}>НАШI ЛIКАРI</h2>
       {doctors.map((doctor, index) => (
         <div key={index} className="p-4 doctor-container mb-4">
           <h1 className="doctor-title text-center" style={{fontWeight: '700', fontSize:'36px', color:'#E20456'}}>{doctor.name}</h1>
@@ -106,6 +137,7 @@ const Doctors = () => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 
