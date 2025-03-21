@@ -21,14 +21,14 @@ const Header = () => {
             </div>
             <div className="mb-2 mb-md-0">
               <img src="./img/vectors/mykyivstar.svg" alt="mykyivstar" className="me-2" />
-              <a href="tel:+380966110303" className="text-white text-decoration-none me-3">
-                +38 (096) 611-03-03
+              <a href="tel:+380986110303" className="text-white text-decoration-none me-3">
+              +38 (098) 611-03-03
               </a>
             </div>
             <div className="mb-2 mb-md-0">
               <img src="./img/vectors/vodafone.svg" alt="vodafone" className="me-2" />
-              <a href="tel:+380956110303" className="text-white text-decoration-none">
-                +38 (095) 611-03-03
+              <a href="tel:+380996110303" className="text-white text-decoration-none">
+              +38 (099) 611-03-03
               </a>
             </div>
           </div>
