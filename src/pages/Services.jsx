@@ -116,9 +116,15 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="container py-5">
-        <h2 className="title mb-4">ПОСЛУГИ</h2>
-      <div className="content-cards">
+    <div className="container py-2">
+      <div className="container text-center">
+      <h2 className="fw-bold position-relative d-inline-block" style={{color:'#E20456'}}>
+        Наша клініка пропонує широкий спектр діагностичних та лікувальних послуг
+        <span className="d-block border-bottom border-danger mt-1"></span>
+      </h2>
+    </div>
+      <h2 className="title mb-4">ПОСЛУГИ</h2>
+      <div className="content-cards" style={{margin: '0px 0px 100px 0px'}}>
         {servicesData.map((service, index) => (
           <div className="content-cards" key={index}>
             <div className="cards p-3 ">
@@ -144,6 +150,7 @@ const Services = () => {
               <a
                 href="#schedule"
                 className="btns"
+                style={{width:'50%'}}
             >
                 Розклад прийому
               </a>

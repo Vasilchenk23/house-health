@@ -37,10 +37,10 @@ const About = () => {
           >
       </section>
       <div className="container my-5">
-        <h2 className="title mb-4" style={{width:'100%', marginBottom:'50px'}}>ПРО НАШУ КЛIНIКУ</h2>
+        <h2 className="title mb-4" style={{width:'100%', marginBottom:'50px', marginTop:'100px'}}>ПРО НАШУ КЛIНIКУ</h2>
         <div className="row align-items-stretch">
         <div className="col-md-6 d-flex flex-column justify-content-between">
-          <div className="block-ultrasound">
+          <div className="block-ultrasound" style={{fontWeight:'400', fontSize:'20px'}}>
             <p>
               Медичний центр “Дім Здоров’я” працює з 2021 року, допомагаючи нашим пацієнтам зберігати здоров’я та гарне самопочуття
             </p>
@@ -74,6 +74,7 @@ const About = () => {
           <a
             href="#schedule"
             className="btns"
+            style={{width:'60%'}}
         >
             Розклад прийому
           </a>

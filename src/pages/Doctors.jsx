@@ -52,7 +52,7 @@ const Doctors = () => {
       name: "Таран Лілія Сергіївна",
       title: "Лікар-невропатолог",
       optionTitle:"Лікар невропатолог",
-      photo: "./img/doctors/doctor4.png",
+      photo: "./img/doctors/doctor5.png",
       address: "м. Харків, вул. Ярославська, 2/1",
       workingHours: "9:00 - 17:00 ПН-ПТ, СБ - запис",
       phone1: "+38 (099) 611-03-03",
@@ -86,6 +86,7 @@ const Doctors = () => {
           <a
             href="#schedule"
             className="btns"
+            style={{width:'50%'}}
         >
             Розклад прийому
           </a>
@@ -114,6 +115,7 @@ const Doctors = () => {
               <a
                 href="#schedule"
                 className="btns"
+                style={{width:'100%', marginTop:'50px'}}
               >
                 Розклад прийому
               </a>

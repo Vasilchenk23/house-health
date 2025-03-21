@@ -56,10 +56,10 @@ const Prices = () => {
 
   return (
     <div className="container my-5">
-      <h2 className="text-primary mb-4 fw-bold">ЦІНИ НА ПОСЛУГИ</h2>
+      <h2 className="title mb-4">ЦІНИ НА ПОСЛУГИ</h2>
       {categories.map((category) => (
         <div key={category} className="mb-4 p-3">
-          <div className="d-flex justify-content-between text-danger fw-bold fs-5 mb-2">
+          <div className="d-flex justify-content-between fs-5 mb-2" style={{color:'#E20456', fontWeight:'400'}}>
             <span>{category}</span>
             <span>Вартість</span>
           </div>
@@ -71,8 +71,8 @@ const Prices = () => {
                   key={service.name}
                   className="d-flex justify-content-between py-1"
                 >
-                  <span className="text-primary fw-normal">{service.name}</span>
-                  <span className="text-danger fw-bold">{service.price}</span>
+                  <span className="fw-normal" style={{color:'#0258A5', fontWeight:'400'}}>{service.name}</span>
+                  <span className="fw-normal" style={{color:'#E20456', fontWeight:'400'}}>{service.price}</span>
                 </div>
               ))}
           </div>

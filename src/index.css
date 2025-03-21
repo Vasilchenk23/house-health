@@ -1,4 +1,6 @@
-
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 li a {
     text-decoration: none; 
@@ -84,6 +86,13 @@ li a {
 
 .menu-list-about li {
   margin: 15px 0;
+  color: #0258A5;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.menu-list-about li:hover {
+  color: #E20456;
 }
 
 
@@ -291,7 +300,7 @@ li a {
   grid-template-columns: repeat(2, 1fr); 
   justify-content: center; 
   align-items: center; 
-  gap: 10px;
+  gap: 40px 10px;
 }
 
 .contents {
@@ -395,8 +404,8 @@ li a {
   content: "";
   display: block;
   width: 90%;
-  height: 3px; 
-  background-color: red; 
+  height: 1px; 
+  background-color: #E20456; 
   margin: 50px auto 50px; 
 }
 

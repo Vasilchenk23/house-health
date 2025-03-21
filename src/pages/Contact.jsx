@@ -5,12 +5,13 @@ import { Container, Row, Col } from "react-bootstrap";
 const Contact = () => {
   return (
     <Container className="py-5">
+       <h2 className="title mb-4">НАШI КОНТАКТИ</h2>
       <Row className="justify-content-start">
         <Col lg={8}>
-          <h2 className="text-danger fw-bold">
+          <h2 className="fw-bold" style={{ color:'#E20456'}}>
             Ласкаво просимо до клініки "Дім Здоров'я"!
           </h2>
-          <p className="text-secondary">
+          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5'}}>
             Ми дбаємо про ваше здоров’я та комфорт, тому створили для вас зручні
             умови та легкий доступ до нашої клініки.
           </p>
