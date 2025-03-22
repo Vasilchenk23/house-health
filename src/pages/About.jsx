@@ -25,6 +25,11 @@ const about = [
 const About = () => {
   return(
     <>
+      <div className="container text-center">
+        <h1 className="display-4 fw-bold custom-h1">
+          МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я
+        </h1>
+      </div>
       <section
           className="hero-section border"
           style={{

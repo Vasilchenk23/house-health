@@ -75,11 +75,6 @@ const Header = () => {
         </button>
         {isMenuOpen && <MobileMenu closeMenu={() => setIsMenuOpen(false)} />}
       </header>
-      <div className="container text-center">
-        <h1 className="display-4 fw-bold custom-h1">
-          МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я
-        </h1>
-      </div>
     </>
   );
 };

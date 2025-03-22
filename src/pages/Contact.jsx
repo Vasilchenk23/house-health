@@ -20,15 +20,23 @@ const Contact = () => {
 
       <Row className="align-items-center mt-4">
         <Col lg={6}>
-          <h4 className="text-primary fw-bold">Адреса</h4>
-          <p className="text-danger">м. Харків, вул. Ярославська, 2/1</p>
+          <h4 className="fw-bold" style={{fontWeight:'800', fontSize:'32px', color:'#0258A5', marginTop:'20px'}}>Адреса</h4>
+          <p style={{fontWeight:'400', fontSize:'24px', color:'#E20456'}}>м. Харків, вул. Ярославська, 2/1</p>
 
-          <h4 className="text-danger fw-bold">Телефони для запису</h4>
-          <p>+38 (098) 611-03-03</p>
-          <p>+38 (099) 611-03-03</p>
-
-          <h4 className="text-primary fw-bold">Електронна пошта</h4>
-          <p>dimzdorovya2020@gmail.com</p>
+          <h4 className="fw-bold" style={{fontWeight:'800', fontSize:'32px', color:'#E20456', marginTop:'50px'}}>Телефони для запису</h4>
+          <div className="d-flex align-center gap-4">
+          <img src="./img/vectors/phone-filled.svg" alt="phone-filled" />
+          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5'}}>+38 (098) 611-03-03</p>
+          </div>
+          <div className="d-flex align-center gap-4">
+          <img src="./img/vectors/phone-filled.svg" alt="phone-filled" />
+          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5'}}>+38 (099) 611-03-03</p>
+          </div>
+          <h4 className="fw-bold" style={{fontWeight:'800', fontSize:'32px', color:'#E20456', marginTop:'40px'}}>Електронна пошта</h4>
+          <div className="d-flex align-center gap-4">
+          <img src="./img/vectors/email-line.svg" alt="email-line" />
+          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5'}}>dimzdorovya2020@gmail.com</p>
+          </div>
         </Col>
 
         <Col lg={6} className="text-center">
@@ -42,10 +50,8 @@ const Contact = () => {
 
       <Row className="justify-content-start mt-4">
         <Col lg={8}>
-          <p className="text-secondary text-start">
-          Ми прагнемо надавати високоякісні медичні послуги 
-          та забезпечувати індивідуальний підхід до кожного пацієнта. 
-          Завітайте до нас та довірте своє здоров’я професіоналам!
+          <p className="text-start" style={{fontWeight:'400', fontSize:'24px', color:'#0258A5', margin:'100px 0px'}}>
+          Зручне розташування дозволяє швидко знайти нас з будь-якої точки міста
           </p>
         </Col>
       </Row>
@@ -64,6 +70,10 @@ const Contact = () => {
             ></iframe>
           </div>
         </Col>
+        <p className="text-start" style={{fontWeight:'400', fontSize:'24px', color:'#0258A5', margin:'100px 0px'}}>
+        Ми прагнемо надавати високоякісні медичні послуги та забезпечувати індивідуальний підхід до кожного пацієнта. 
+        Завітайте до нас та довірте своє здоров’я професіоналам!
+          </p>
       </Row>
     </Container>
   );
