@@ -20,7 +20,7 @@ li a {
   }
   
   .navbar-nav {
-    gap: 30px;
+    gap: 20px;
     align-items: center;
   }
 
@@ -42,8 +42,11 @@ li a {
   .nav-logo, .nav-item {
     display: none;
   }
-}
+  .custom-navbar {
+    margin-top: 0px;
+  }
 
+}
 
 .nav-item:hover {
     border: 1px solid #E20456;
@@ -113,8 +116,6 @@ li a {
   cursor: pointer;
 }
 
-
-
 .custom-h1 {
     width: 100%; 
     margin-top: 50px;
@@ -131,9 +132,18 @@ li a {
 
   @media (max-width: 1199px) {
     .custom-h1 {
-     margin-bottom: 50px;
+     margin-bottom: 40px;
     }
   }
+
+  @media (max-width: 896px) {
+    .doctor-container .btns {
+      width: 100% !important; 
+      max-width: 300px; 
+      margin: 0 auto; 
+    }
+  }
+  
   
   .custom-p {
     width: 100%; 

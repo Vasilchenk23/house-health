@@ -39,7 +39,7 @@ const Header = () => {
             <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
               <ul className="navbar-nav d-flex align-items-center gap-4">
                 <li className="nav-logo">
-                  <a className="navbar-brand" href="#">
+                  <a className="navbar-brand" href="/">
                     <img src="./img/vectors/logo.svg" alt="logo" />
                   </a>
                 </li>
@@ -66,7 +66,7 @@ const Header = () => {
           </div>
         </nav>
         <button className="navbar-toggler d-xxl-none d-flex align-items-center justify-content-around w-100 px-3" type="button" onClick={() => setIsMenuOpen(true)}>
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src="./img/vectors/logo.svg" alt="logo" />
           </a>
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">

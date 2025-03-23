@@ -45,13 +45,14 @@ const Contact = () => {
             src="./img/women-contact.png"
             alt="women-contact"
             className="img-fluid women-contact-img"
+            style={{marginTop:'30px'}}
           />
         </Col>
       </Row>
 
       <Row className="justify-content-start mt-4">
         <Col lg={8}>
-          <p className="text-start" style={{fontWeight:'400', fontSize:'24px', color:'#0258A5', margin:'100px 0px'}}>
+          <p className="text-start" style={{fontWeight:'400', fontSize:'24px', color:'#0258A5', margin:'30px 0px'}}>
           Зручне розташування дозволяє швидко знайти нас з будь-якої точки міста
           </p>
         </Col>
@@ -71,7 +72,7 @@ const Contact = () => {
             ></iframe>
           </div>
         </Col>
-        <p className="text-start" style={{fontWeight:'400', fontSize:'24px', color:'#0258A5', margin:'100px 0px'}}>
+        <p className="text-start" style={{fontWeight:'400', fontSize:'24px', color:'#0258A5', margin:'30px 0px'}}>
         Ми прагнемо надавати високоякісні медичні послуги та забезпечувати індивідуальний підхід до кожного пацієнта. 
         Завітайте до нас та довірте своє здоров’я професіоналам!
           </p>
