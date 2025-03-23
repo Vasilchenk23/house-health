@@ -8,7 +8,7 @@ const Contact = () => {
        <h2 className="title mb-4">НАШI КОНТАКТИ</h2>
       <Row className="justify-content-start">
         <Col lg={8}>
-          <h2 className="fw-bold" style={{ color:'#E20456'}}>
+          <h2 className="fw-bold" style={{ color:'#E20456', margin:'50px 0px'}}>
             Ласкаво просимо до клініки "Дім Здоров'я"!
           </h2>
           <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5'}}>
@@ -24,18 +24,19 @@ const Contact = () => {
           <p style={{fontWeight:'400', fontSize:'24px', color:'#E20456'}}>м. Харків, вул. Ярославська, 2/1</p>
 
           <h4 className="fw-bold" style={{fontWeight:'800', fontSize:'32px', color:'#E20456', marginTop:'50px'}}>Телефони для запису</h4>
+          <br />
           <div className="d-flex align-center gap-4">
           <img src="./img/vectors/phone-filled.svg" alt="phone-filled" />
-          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5'}}>+38 (098) 611-03-03</p>
+          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5', padding:'15px 0px 0px 0px'}}>+38 (098) 611-03-03</p>
           </div>
-          <div className="d-flex align-center gap-4">
+          <div className="d-flex align-center  gap-4">
           <img src="./img/vectors/phone-filled.svg" alt="phone-filled" />
-          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5'}}>+38 (099) 611-03-03</p>
+          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5', padding:'15px 0px 0px 0px'}}>+38 (099) 611-03-03</p>
           </div>
           <h4 className="fw-bold" style={{fontWeight:'800', fontSize:'32px', color:'#E20456', marginTop:'40px'}}>Електронна пошта</h4>
-          <div className="d-flex align-center gap-4">
+          <div className="d-flex align-center  gap-4">
           <img src="./img/vectors/email-line.svg" alt="email-line" />
-          <p style={{fontWeight:'400', fontSize:'24px', color:'#0258A5'}}>dimzdorovya2020@gmail.com</p>
+          <p style={{fontWeight:'400', fontSize:'22px', color:'#0258A5', padding:'15px 0px 0px 0px'}}>dimzdorovya2020@gmail.com</p>
           </div>
         </Col>
 

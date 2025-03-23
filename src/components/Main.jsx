@@ -1,5 +1,5 @@
 const Main = () => {
-    return(
+    return (
         <>
             <section
                 className="hero-section border"
@@ -10,16 +10,8 @@ const Main = () => {
                     maxWidth: '100%',
                     position: 'relative',
                 }}
-                >
-                <a
-                    href="#schedule"
-                    className="btns"
-                    style={{
-                    position: 'absolute',
-                    top: '50px',  
-                    left: '20px', 
-                    }}
-                >
+            >
+                <a href="#schedule" className="btns schedule-btn">
                     Розклад прийому
                 </a>
             </section>

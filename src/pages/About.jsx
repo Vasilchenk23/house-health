@@ -49,7 +49,6 @@ const About = () => {
             <p>
               Медичний центр “Дім Здоров’я” працює з 2021 року, допомагаючи нашим пацієнтам зберігати здоров’я та гарне самопочуття
             </p>
-            <br />
             <p>
             Наша місія: "Забезпечити якісну та доступну медичну допомогу, створюючи атмосферу довіри, комфорту та турботи"
             </p>
@@ -111,7 +110,7 @@ const About = () => {
             src="./img/services-about.png"
             alt="services-about"
             className="img-fluid"
-            style={{ maxHeight: '100%' }}
+            style={{ maxHeight: '100%', marginTop:'50px' }}
           />
         </div>
         <div className="col-md-6 d-flex flex-column justify-content-center">

@@ -71,7 +71,7 @@ const Prices = () => {
                   key={service.name}
                   className="d-flex justify-content-between py-1"
                 >
-                  <span className="fw-normal" style={{color:'#0258A5', fontWeight:'400'}}>{service.name}</span>
+                  <span className="fw-normal service-name" style={{color:'#0258A5', fontWeight:'400'}}>{service.name}</span>
                   <span className="fw-normal" style={{color:'#E20456', fontWeight:'400'}}>{service.price}</span>
                 </div>
               ))}
