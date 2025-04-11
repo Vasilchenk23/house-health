@@ -37,7 +37,7 @@ const Header = () => {
         <nav className="container d-flex align-items-center navbar navbar-expand-md custom-navbar">
           <div className="container-fluid">
             <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
-              <ul className="navbar-nav d-flex align-items-center gap-4">
+              <ul className="navbar-nav d-flex align-items-start gap-5">
                 <li className="nav-logo">
                   <a className="navbar-brand" href="/">
                     <img src="./img/vectors/logo.svg" alt="logo" />
