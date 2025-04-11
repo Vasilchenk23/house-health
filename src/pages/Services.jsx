@@ -118,7 +118,7 @@ const Services = () => {
   return (
     <div className="container py-2">
       <div className="container text-center">
-        <h1 className="display-4 fw-bold custom-h1">
+        <h1 className="custom-h1" >
           МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я
         </h1>
       </div>

@@ -70,11 +70,11 @@ const Doctors = () => {
     <>
     <div className="container my-5">
     <div className="container text-center">
-      <h1 className="display-4 fw-bold custom-h1">
+      <h1 className="custom-h1">
         МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я
       </h1>
     </div>
-    <div className="row align-items-stretch" style={{margin:'0px 0px 50px'}}>
+    <div className="row align-items-stretch" style={{margin:'50px 0px 50px'}}>
         <div className="col-md-6 d-flex flex-column justify-content-between">
           <div className="block-ultrasound" style={{fontSize:'28px', fontWeight:'400', color:'#E20456'}}>
             <p>

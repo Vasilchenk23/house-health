@@ -26,21 +26,25 @@ const About = () => {
   return(
     <>
       <div className="container text-center">
-        <h1 className="display-4 fw-bold custom-h1">
+        <h1 className="custom-h1">
           МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я
         </h1>
-      </div>
-      <section
-          className="hero-section border"
-          style={{
-              background: 'url("./img/main-about.png") no-repeat center center',
-              backgroundSize: 'cover',
-              minHeight: '70vh',
-              maxWidth: '100%',
-              position: 'relative',
-          }}
-          >
+        <section
+        className="hero-section"
+        style={{
+          background: 'url("./img/main-about.png") no-repeat center center',
+          backgroundSize: 'cover',
+          minHeight: '678px',
+          maxWidth: '1480px',
+          width: '100%',
+          position: 'relative',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
       </section>
+      </div>
       <div className="container my-5">
         <h2 className="title mb-4" style={{width:'100%', marginBottom:'50px', marginTop:'100px'}}>ПРО НАШУ КЛIНIКУ</h2>
         <div className="row align-items-stretch">
