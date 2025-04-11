@@ -24,7 +24,7 @@ const Ultrasound = () => {
             </p>
           </div>
           <a
-            href="#schedule"
+            href="/doctors"
             className="btns"
             style={{width:'50%'}}
         >

@@ -11,7 +11,7 @@ const Main = () => {
                     position: 'relative',
                 }}
             >
-                <a href="#schedule" className="btns schedule-btn">
+                <a href="/doctors" className="btns schedule-btn">
                     Розклад прийому
                 </a>
             </section>

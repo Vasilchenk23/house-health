@@ -153,7 +153,7 @@ const Services = () => {
                 ))}
               </ul>
               <a
-                href="#schedule"
+                href="/doctors"
                 className="btns"
                 style={{width:'50%'}}
             >

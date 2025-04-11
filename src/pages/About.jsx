@@ -76,7 +76,7 @@ const About = () => {
             </div>
           </div>
           <a
-            href="#schedule"
+            href="/doctors"
             className="btns"
             style={{width:'60%'}}
         >
@@ -96,7 +96,7 @@ const About = () => {
         {about.map((item, index) => (
           <div key={index} className="col-md-4">
             <div className={`p-4 col col-round text-center`}>
-              <img src={item.icon} className="fs-2"></img>
+              <img src={item.icon} alt="block" className="fs-2"></img>
               <h5 className="fw-bold mt-2">{item.title}</h5>
               <p className="w-100 mx-auto" style={{ maxWidth: "300px" }}>{item.description}</p>
             </div>
@@ -150,7 +150,7 @@ const About = () => {
           </ul>
         </div>
         <a
-            href="#schedule"
+            href="/doctors"
             className="btns mt-3"
             style={{ width: 'max-content' }}
           >

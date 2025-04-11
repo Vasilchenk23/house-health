@@ -76,7 +76,7 @@ const Doctors = () => {
     </div>
     <div className="row align-items-stretch" style={{margin:'0px 0px 50px'}}>
         <div className="col-md-6 d-flex flex-column justify-content-between">
-          <div className="block-ultrasound" style={{fontSize:'24px', fontWeight:'400', color:'#E20456'}}>
+          <div className="block-ultrasound" style={{fontSize:'28px', fontWeight:'400', color:'#E20456'}}>
             <p>
             Це команда висококваліфікованих спеціалістів, які щодня дбають про здоров’я наших пацієнтів
             </p>
@@ -86,13 +86,13 @@ const Doctors = () => {
             </p>
             <br />
           </div>
-          <a
-            href="#schedule"
+          {/* <a
+            href="/doctors"
             className="btns"
             style={{width:'50%'}}
         >
             Розклад прийому
-          </a>
+          </a> */}
         </div>
         <div className="col-md-6 text-center text-md-end mt-4 mt-md-0">
           <img
@@ -115,13 +115,13 @@ const Doctors = () => {
                 alt="Doctor" 
                 className="img-fluid mb-3"
               />
-              <a
-                href="#schedule"
+              {/* <a
+                href="/doctors"
                 className="btns"
                 style={{width:'100%', marginTop:'50px'}}
               >
                 Розклад прийому
-              </a>
+              </a> */}
             </div>
             <div className="col-md-4">
               <h5 className="text-center mb-5" style={{fontWeight:'600', fontSize:'20px', color:'#E20456'}}>Контакти:</h5>
