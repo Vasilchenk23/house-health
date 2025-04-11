@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="bg-primary-custom text-white d-flex align-items-center" style={{ minHeight: "64px" }}>
+        <div className="bg-primary-custom text-white d-flex align-items-center" style={{ minHeight: "64px", }}>
           <div className="container d-flex flex-column flex-md-row justify-content-between align-items-center">
             <div className="mb-2 mb-md-0">
               <img src="./img/vectors/location.svg" alt="location" className="me-2" />
@@ -34,9 +34,9 @@ const Header = () => {
           </div>
         </div>
 
-        <nav className="navbar navbar-expand-md custom-navbar">
-          <div className="container-fluid px-5">
-            <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <nav className="container d-flex align-items-center navbar navbar-expand-md custom-navbar">
+          <div className="container-fluid">
+            <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
               <ul className="navbar-nav d-flex align-items-center gap-4">
                 <li className="nav-logo">
                   <a className="navbar-brand" href="/">
