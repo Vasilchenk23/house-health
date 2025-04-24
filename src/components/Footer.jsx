@@ -38,6 +38,62 @@ const Footer = () => {
             <p className="license-text">Ліцензія № 1608 від 30.07.2021</p>
           </div>
         </Row>
+        <Row className="mt-4 border-top pt-3 justify-content-center">
+  <Col xs="auto" className="d-flex align-items-center gap-3">
+    <span className="footer-dev text-white d-flex align-items-center gap-4">
+      сайт розроблено:
+      
+      <div className="d-flex align-items-center gap-1">
+        <a
+          href="https://www.behance.net/b5a12831"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-icon-link"
+        >
+          <img
+            src="./img/vectors/instagram.svg"
+            alt="instagram"
+            className="footer-icon"
+            style={{margin:'0px 15px 0px 0px', width:'24px', height:'24px'}}
+          />
+        </a>
+        <a
+          href="https://www.behance.net/b5a12831"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link-custom"
+        >
+          Наталія Твердохліб
+        </a>
+      </div>
+
+      <div className="d-flex align-items-center gap-1">
+        <a
+          href="https://www.instagram.com/maks_fullstack/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-icon-link"
+        >
+          <img
+            src="./img/vectors/instagram.svg"
+            alt="instagram"
+            className="footer-icon"
+            style={{margin:'0px 15px 0px 0px', width:'24px', height:'24px'}}
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/maks_fullstack/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="footer-link-custom"
+        >
+          Максим Васильченко
+        </a>
+      </div>
+    </span>
+  </Col>
+</Row>
+
       </Container>
     </footer>
   );

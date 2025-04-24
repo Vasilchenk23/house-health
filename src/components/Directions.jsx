@@ -47,10 +47,19 @@ const Directions = () => {
       <div className="row g-3">
         {directions.map((item, index) => (
           <div key={index} className="col-md-4">
-            <div className={`p-4 col col-round text-center`}>
-              <img src={item.icon} className="fs-2"></img>
-              <h5 className="fw-bold mt-2">{item.title}</h5>
-              <p className="w-100 mx-auto" style={{ maxWidth: "300px" }}>{item.description}</p>
+            <div
+              className="p-4 col col-round text-center"
+              style={{
+                backgroundColor: index === 0 ? "#E20456" : "#0258A5",
+                color: index === 0 ? "white" : "white",
+                borderRadius: "1rem",
+              }}
+            >
+              <img src={item.icon} className="fs-2 mb-3" alt={item.title} />
+              <h5 className="fw-bold">{item.title}</h5>
+              <p className="w-100 mx-auto" style={{ maxWidth: "300px" }}>
+                {item.description}
+              </p>
             </div>
           </div>
         ))}
@@ -60,3 +69,4 @@ const Directions = () => {
 };
 
 export default Directions;
+

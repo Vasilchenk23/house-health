@@ -515,4 +515,26 @@ h1 {
   }
 }
 
+.footer-link-custom {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-link-custom:hover {
+  color: #ff0050;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  transition: filter 0.2s ease-in-out;
+}
+
+.footer-icon-link:hover .footer-icon {
+  filter: invert(25%) sepia(94%) saturate(5734%) hue-rotate(324deg) brightness(95%) contrast(108%);
+}
+
+
+
 
