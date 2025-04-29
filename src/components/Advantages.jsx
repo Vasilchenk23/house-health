@@ -1,3 +1,4 @@
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 const advantages = [
@@ -27,28 +28,40 @@ const advantages = [
   },
 ];
 
-const Advantages = () => {
-  return (
-    <Container className="py-5">
-      <h2 className="title">НАШІ ПЕРЕВАГИ</h2>
-      <Row className="mt-4">
-        {advantages.map((adv, index) => (
-          <Col md={4} className="mb-4" key={index}>
-            <div className="p-3 advantages-block d-flex">   
-              <span className="text-danger pr-4">
-                <img src="./img/vectors/check-fill.svg" alt="check-fill" className="me-2" />
-              </span>
-              <div>
-                <h5 className="col-blue fw-bold">{adv.title}</h5>
-                <p className="col-blue-two mb-0">{adv.description}</p>
+const Advantages = () => (
+  <Container fluid className="px-0">
+    <div>
+      <Container className="py-5 px-1 px-lg-6">
+        <h2 className="title mb-4">НАШІ ПЕРЕВАГИ</h2>
+        <Row className="gx-4 gy-4">
+          {advantages.map((adv, idx) => (
+            <Col md={4} key={idx}>
+              <div
+                className="d-flex align-items-start"
+                style={{
+                  background: "#E6F1FF",
+                  border: "1px solid #E20456",
+                  borderRadius: "50px",
+                  borderBottomLeftRadius: "0",
+                  padding: "1.5rem",
+                }}
+              >
+                <img
+                  src="./img/vectors/check-fill.svg"
+                  alt="check"
+                  className="me-3 mt-1"
+                />
+                <div>
+                  <h5 className="col-blue fw-bold mb-1">{adv.title}</h5>
+                  <p style={{ fontSize: "1.355rem", lineHeight: 1.5 }} className="col-blue-two mb-0">{adv.description}</p>
+                </div>
               </div>
-            </div>
-          </Col>
-        ))}
-      </Row>
-    </Container>
-  );
-};
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
+  </Container>
+);
 
 export default Advantages;
-

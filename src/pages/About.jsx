@@ -25,22 +25,21 @@ const about = [
 const About = () => {
   return (
     <>
-      <div className="container text-center">
+      <div className="container">
+      <div className="full-width text-md-start text-center">
         <h1 className="custom-h2">МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я</h1>
-        <section
-          className="hero-section"
-          style={{
-            background: 'url("./img/main-about.png") no-repeat center center',
-            backgroundSize: "cover",
-            minHeight: "678px",
-            maxWidth: "1480px",
-            width: "100%",
-            position: "relative",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        ></section>
+      </div>
+      <section
+      style={{
+        background: 'url("./img/main-about.png") no-repeat center center',
+        backgroundSize: "cover",
+        minHeight: "678px",
+        position: "relative",
+        display: "flex",
+        alignItems: "center",
+      }}
+    ></section>
+
       </div>
 
       <div className="container my-5">
@@ -80,27 +79,44 @@ const About = () => {
             />
           </div>
         </div>
-
-        <h2 className="title mb-4" style={{ margin: "100px 0px" }}>ЧОМУ НАМ ДОВIРЯЮТЬ</h2>
-        <div className="row g-3">
-          {about.map((item, index) => (
-            <div key={index} className="col-md-4">
-              <div
-                className="p-4 col col-round text-center"
-                style={{
-                  backgroundColor: index === 0 ? "#E20456" : "#0258A5",
-                  color: index === 0 ? "white" : "white",
-                  borderRadius: "1rem"
-                }}
-              >
-                <img src={item.icon} alt="block" className="fs-2 mb-3" />
-                <h5 className="fw-bold">{item.title}</h5>
-                <p className="w-100 mx-auto" style={{ maxWidth: "300px" }}>{item.description}</p>
-              </div>
-            </div>
-          ))}
+        <div
+  style={{
+    maxWidth: '100vw',
+    margin: "0",
+    padding: "",
+    boxSizing: "border-box",
+  }}
+>
+  <h2 style={{marginTop: '100px'}} className="title mb-7">ЧОМУ НАМ ДОВІРЯЮТЬ</h2>
+  <div className="row g-3">
+    {about.map((item, index) => (
+      <div key={index} className="col-md-4">
+        <div
+          className="p-4 text-center"
+          style={{
+            backgroundColor:
+              index === 0 ? "#E20456" : "#0258A5",
+            color: "#fff",
+            borderRadius: "1rem",
+          }}
+        >
+          <img
+            src={item.icon}
+            alt="block"
+            className="fs-2 mb-3"
+          />
+          <h5 className="fw-bold">{item.title}</h5>
+          <p
+            className="mb-0"
+            style={{ maxWidth: 300, margin: "0 auto" }}
+          >
+            {item.description}
+          </p>
         </div>
-
+      </div>
+    ))}
+  </div>
+</div>
         <h2 className="title mb-4" style={{ margin: "100px 0px" }}>НАШI ПОСЛУГИ</h2>
         <div className="row align-items-center">
           <div className="col-md-6">

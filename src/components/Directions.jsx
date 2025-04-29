@@ -42,31 +42,33 @@ const directions = [
 
 const Directions = () => {
   return (
-    <div className="container my-5">
-      <h2 className="title">Напрямки</h2>
-      <div className="row g-3">
-        {directions.map((item, index) => (
-          <div key={index} className="col-md-4">
-            <div
-              className="p-4 col col-round text-center"
-              style={{
-                backgroundColor: index === 0 ? "#E20456" : "#0258A5",
-                color: index === 0 ? "white" : "white",
-                borderRadius: "1rem",
-              }}
-            >
-              <img src={item.icon} className="fs-2 mb-3" alt={item.title} />
-              <h5 className="fw-bold">{item.title}</h5>
-              <p className="w-100 mx-auto" style={{ maxWidth: "300px" }}>
-                {item.description}
-              </p>
+    <div className="container my-5 px-0">
+      <div className="rounded-3 py-5">
+        <h2 className="title mb-4">Напрямки</h2>
+        <div className="row g-3">
+          {directions.map((item, i) => (
+            <div key={i} className="col-md-4">
+              <div
+                className="p-4 text-center rounded-3"
+                style={{
+                  backgroundColor: i === 0 ? "#E20456" : "#0258A5",
+                  color: "#fff",
+                }}
+              >
+                <img src={item.icon} className="fs-2 mb-3" alt={item.title} />
+                <h5 className="fw-bold">{item.title}</h5>
+                <p className="mx-auto" style={{ maxWidth: 300 }}>
+                  {item.description}
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
 };
+
 
 export default Directions;
 

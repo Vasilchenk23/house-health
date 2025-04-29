@@ -34,37 +34,21 @@ const Header = () => {
           </div>
         </div>
 
-        <nav className="container d-flex align-items-center navbar navbar-expand-md custom-navbar">
-          <div className="container-fluid">
-            <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
-              <ul className="navbar-nav d-flex justify-content-between align-items-start gap-5">
-                <li className="nav-logo">
-                  <a className="navbar-brand" href="/">
-                    <img src="./img/vectors/logo.svg" alt="logo" />
-                  </a>
-                </li>
-                <li className="nav-item">
-                <Link to="/">Головна</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/about">Про нас</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/services">Послуги</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/doctors">Лікарі</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/prices">Ціни</Link>
-                </li>
-                <li className="nav-item">
-                <Link to="/contact">Контакти</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <nav className="navbar navbar-expand-xxl custom-navbar">
+  <div className="container d-flex align-items-center">
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav ms-auto d-flex align-items-center gap-5">
+        <li className="nav-item"><Link to="/">Головна</Link></li>
+        <li className="nav-item"><Link to="/about">Про нас</Link></li>
+        <li className="nav-item"><Link to="/services">Послуги</Link></li>
+        <li className="nav-item"><Link to="/doctors">Лікарі</Link></li>
+        <li className="nav-item"><Link to="/prices">Ціни</Link></li>
+        <li className="nav-item"><Link to="/contact">Контакти</Link></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
         <button className="navbar-toggler d-xxl-none d-flex align-items-center justify-content-around w-100 px-3" type="button" onClick={() => setIsMenuOpen(true)}>
           <a className="navbar-brand" href="/">
             <img src="./img/vectors/logo.svg" alt="logo" />
