@@ -127,7 +127,7 @@ const About = () => {
               style={{ marginTop: "50px" }}
             />
           </div>
-          <div className="col-md-6 d-flex flex-column justify-content-center">
+          <div className="col-md-6 d-flex flex-column align-items-md-end justify-content-md-end justify-content-center text-md-end">
             <ul className="menu-list-about">
               {[
                 "Діагностика (УЗД, ЕКГ, холтер-моніторинг)",
@@ -143,7 +143,7 @@ const About = () => {
               ))}
             </ul>
           </div>
-          <a href="/doctors" className="btns mt-3" style={{ width: "max-content" }}>
+          <a href="/doctors" className="btns mt-5" style={{ width: "max-content", marginLeft:'10px' }}>
             Розклад прийому
           </a>
         </div>

@@ -117,19 +117,18 @@ const servicesData = [
 const Services = () => {
   return (
     <div className="container py-2">
-      <div className="container text-center">
-        <h1 className="custom-h2" >
-          МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я
-        </h1>
-      </div>
-      <div className="container text-center">
-      <h2 className="fw-bold position-relative d-inline-block" style={{color:'#E20456'}}>
-        Наша клініка пропонує широкий спектр діагностичних та лікувальних послуг
-        <span className="d-block border-bottom border-danger mt-1"></span>
+    <h1 className="custom-h3" >
+      МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я
+    </h1>
+    <h2
+      className="fw-bold position-relative d-inline-block text-danger"
+      style={{ fontSize: 'calc(0.8rem + 1.54vw)' }}
+      >
+      Наша клініка пропонує широкий спектр діагностичних та лікувальних послуг
+      <span className="d-block border-bottom border-danger mt-1"></span>
       </h2>
-    </div>
       <h2 className="title mb-4">ПОСЛУГИ</h2>
-      <div className="content-cards" style={{margin: '0px 0px 100px 0px'}}>
+      <div className="content-cards " style={{margin: '0px 0px 100px 0px'}}>
         {servicesData.map((service, index) => (
           <div className="content-cards" key={index}>
             <div className="cards p-3 ">

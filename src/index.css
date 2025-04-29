@@ -114,7 +114,7 @@ li a {
 }
 
 
-  .custom-h2 {
+  .custom-h3 {
     width: 103%; 
     text-align: start;
     margin-top: 50px;
@@ -140,6 +140,16 @@ li a {
 
 .custom-h2 {
   font-size: clamp(1rem, 3.84vw + 1.36vw, 11.36rem);  
+  margin-top: 50px;    
+  margin-bottom: 50px; 
+  font-weight: 700;
+  color: #0258A5;
+  text-transform: uppercase;
+  height: auto;
+}
+
+.custom-h3 {
+  font-size: clamp(1rem, 3.84vw + 1.339vw, 11.339rem);  
   margin-top: 50px;    
   margin-bottom: 50px; 
   font-weight: 700;
