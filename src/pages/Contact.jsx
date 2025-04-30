@@ -40,15 +40,12 @@ const Contact = () => {
           </div>
         </Col>
 
-        <Col
-          lg={6}
-          className="d-flex justify-content-center justify-content-lg-end"
-        >
+        <Col lg={6} className="text-center">
           <img
             src="./img/women-contact.png"
             alt="women-contact"
             className="img-fluid women-contact-img"
-            style={{ marginTop: '30px' }}
+            style={{marginTop:'30px'}}
           />
         </Col>
       </Row>
