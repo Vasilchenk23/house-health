@@ -29,9 +29,7 @@ const advantages = [
 ];
 
 const Advantages = () => (
-  <Container fluid className="px-0">
-    <div>
-      <Container className="py-5 px-1 px-lg-6">
+    <div className="container">
         <h2 className="title mb-4">НАШІ ПЕРЕВАГИ</h2>
         <Row className="gx-4 gy-4">
           {advantages.map((adv, idx) => (
@@ -59,9 +57,7 @@ const Advantages = () => (
             </Col>
           ))}
         </Row>
-      </Container>
-    </div>
-  </Container>
+  </div>
 );
 
 export default Advantages;

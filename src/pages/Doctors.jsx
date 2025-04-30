@@ -84,13 +84,6 @@ const Doctors = () => {
             </p>
             <br />
           </div>
-          {/* <a
-            href="/doctors"
-            className="btns"
-            style={{width:'50%'}}
-        >
-            Розклад прийому
-          </a> */}
         </div>
         <div className="col-md-6 text-center text-md-end mt-4 mt-md-0">
           <img

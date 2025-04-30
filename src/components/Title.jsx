@@ -8,12 +8,11 @@ export default function Title() {
       </div>
       <div className="full-width text-center">
         <p className="custom-p">
-          Ми знайдемо спільний шлях до покращення&nbsp;Вашого&nbsp;здоров'я
+          Ми знайдемо спільний шлях до покращення Вашого здоров'я
         </p>
       </div>
 
       
-     
 
     </>
   );

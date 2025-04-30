@@ -1,5 +1,6 @@
+// Directions.jsx
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const directions = [
   {
@@ -29,46 +30,30 @@ const directions = [
   {
     title: "ЕНДОКРИНОЛОГІЯ",
     description:
-      "Неврологи надають кваліфіковану допомогу при різноманітних порушеннях нервової системи",
+      "Ендокринологи надають кваліфіковану допомогу при порушеннях обміну речовин та гормональних дисбалансах",
     icon: "./img/vectors/lugkie.svg",
   },
   {
     title: "УЗД",
     description:
-      "Неврологи надають кваліфіковану допомогу при різноманітних порушеннях нервової системи",
+      "УЗД-діагностика допомагає виявити патології внутрішніх органів без хірургічного втручання",
     icon: "./img/vectors/ultrasound.svg",
   },
 ];
 
-const Directions = () => {
-  return (
-    <div className="container my-5 px-0">
-      <div className="rounded-3 py-5">
-        <h2 className="title mb-4">Напрямки</h2>
-        <div className="row g-3">
-          {directions.map((item, i) => (
-            <div key={i} className="col-md-4">
-              <div
-                className="p-4 text-center rounded-3"
-                style={{
-                  backgroundColor: i === 0 ? "#E20456" : "#0258A5",
-                  color: "#fff",
-                }}
-              >
-                <img src={item.icon} className="fs-2 mb-3" alt={item.title} />
-                <h5 className="fw-bold">{item.title}</h5>
-                <p className="mx-auto" style={{ maxWidth: 300 }}>
-                  {item.description}
-                </p>
-              </div>
-            </div>
-          ))}
+const Directions = () => (
+  <div className="directions-container">
+     <h2 className="title mb-4">Напрямки</h2>
+    <div className="directions-grid">
+      {directions.map((item, i) => (
+        <div key={i} className="direction-block">
+          <img src={item.icon} alt={item.title} className="direction-icon" />
+          <h5 className="direction-title">{item.title}</h5>
+          <p className="direction-desc">{item.description}</p>
         </div>
-      </div>
+      ))}
     </div>
-  );
-};
-
+  </div>
+);
 
 export default Directions;
-

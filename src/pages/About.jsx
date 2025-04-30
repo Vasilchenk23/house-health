@@ -27,7 +27,7 @@ const About = () => {
     <>
       <div className="container">
       <div className="full-width text-md-start text-center">
-        <h1 className="custom-h2">МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я</h1>
+        <h1 className="custom-h2" style={{color: '#0258A5'}}>МЕДИЧНИЙ ЦЕНТР ДІМ ЗДОРОВ’Я</h1>
       </div>
       <section
       style={{
