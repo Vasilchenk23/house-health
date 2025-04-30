@@ -542,7 +542,6 @@ h1 {
   filter: invert(25%) sepia(94%) saturate(5734%) hue-rotate(324deg) brightness(95%) contrast(108%);
 }
 
-/* Directions.css */
 
 .directions-container {
   max-width: 91%;
@@ -561,7 +560,6 @@ h1 {
   gap: 1rem;
 }
 
-/* Две колонки на планшете */
 @media (min-width: 600px) {
   .directions-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -569,7 +567,6 @@ h1 {
   }
 }
 
-/* Три колонки на ноутбуке и выше */
 @media (min-width: 992px) {
   .directions-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -578,7 +575,7 @@ h1 {
 }
 
 .direction-block {
-  background-color: #0258A5; /* по умолчанию синий */
+  background-color: #0258A5;
   color: #fff;
   padding: 1.5rem;
   border-radius: 0.75rem;
