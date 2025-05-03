@@ -31,7 +31,7 @@ const advantages = [
 const Advantages = () => (
     <div className="container">
         <h2 className="title mb-4">НАШІ ПЕРЕВАГИ</h2>
-        <Row className="gx-4 gy-4">
+        <Row className="gx-4 gy-4" style={{marginBottom:'40px'}}>
           {advantages.map((adv, idx) => (
             <Col md={4} key={idx}>
               <div
